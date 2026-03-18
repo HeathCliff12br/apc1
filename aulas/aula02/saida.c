@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    printf("ola mundo");
-    printf("bom dia");
+    float notas [5] [4];
+    float media, mediageral = 0;
+    int i, j;
     
-    return 0;
 }
