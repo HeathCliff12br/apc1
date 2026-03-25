@@ -1,1 +1,32 @@
+#include <stdio.h>
 
+int main() {
+
+   char tecla_prssionada;
+
+   printf("Pressione uma tecla:");
+   scanf("%c", &tecla_prssionada );
+   while(getchar() !='\n');
+
+   printf("voce pressionou a tecla %c\n", tecla_prssionada);
+   
+
+   int idade;
+
+   printf(" Informe a sua idade:");
+   scanf("%i", &idade);
+   while(getchar() !='\n');
+
+   printf(" voce tem %i anos\n", idade);
+
+
+   float preco;
+    printf("informe o preco da passagem:");
+    scanf("%f", &preco);
+    while(getchar() !='\n');
+
+    printf("o presso da passagem eh %.2f\n", preco);
+    
+    return 0;
+
+}
